@@ -1,0 +1,70 @@
+misc
+    font style confirmation
+
+Menu screen
+    play button
+    dashboard button
+    mute button
+    settings button
+    dashboard UI
+        color codes for the ui backgrounds
+        behaviour score head ui image
+        coins earned ui image
+        reward coins gift box image
+        school name gradient background
+        close button
+    
+inside the cafe " Discover The Map " logo/image missing (before level selection screen)
+
+level selection the 4 attempt circles with a black border for each level (shown in the instruction docx Priya sent)
+
+gameplay
+    motion challange assets seperated
+        the farmer
+        red truck
+        blue truck
+        wooden house goal (level 1)
+        barn goal (level 2)
+        metal obstacles
+        any other assets I may have missed to include for level 1 and 2
+
+    actual grid size and final layout/reference of the level 1 and 2 (some of the layouts in the ppt are different and confusing)
+        level 1 = ?
+        level 2 = ?
+    confirm the grid size for level 3 and 4
+        level 3 = 6x6 grid? (instruction docx Priya sent shows 3x3)
+        level 4 = 4x4 grid? (as show in the instruction docx Priya sent)
+
+    congratulations screen
+        congratulations text image
+        stars
+        well done text image
+
+    feedback questions
+        background image with lights
+        glowing neon border for the question 
+        options background
+        green checkmark
+        next button
+
+gameover
+    background image
+    game over text image
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+doubts
+    where are the unrevealed maps used?

@@ -1,0 +1,16 @@
+{
+    "IdUser": null,
+    "IdGame": 5,
+    "IdLevel": 13,
+    "IdSubliminalMeasurement1": null,
+    "IdSubliminalMeasurement2": null,
+    "IdBehavior": null,
+    "BehaviorScore": null,
+    "GoldCoins": 80,
+    "TimetakenToComplete": 120,
+    "MedallionsCollected": 4,
+    "AttemptNo": 55,
+    "IsCompleted": 1,
+    "UpdatedDateTime": null,
+    "IdOrganization": 1
+}

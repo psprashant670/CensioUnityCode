@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b75df7ede751f44f8ee08eca996b122, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  IsCustomBuild: 0
+  isStagingDomain: 1
+  SelectedLevel: 4
+  Levels:
+  - level: 0
+    idLevel: 1
+    challengeName: Challenge 1
+    challengeIntroMessage: 'Hi! This one here is a motion challenge. Your challenge
+      is to guide the farmer to reach the barn by moving tractors left and right.
+      And, you have 60 seconds to do that. You will get the gold coins and the first
+      piece of the map when you complete the challenge successfully.  & You can only
+      move the tractors. Successful completion in the 1st attempt give you 180 coins.
+      The more attempts you take to complete, the lesser gold coins you will get.
+
+      Successful
+      completion in the 4th attempt will give you 0 gold coins. However, you will
+      still get the 1st piece of the map
+
+'
+    bottomCompleteMessage: You have discovered the first piece of map
+    bottomFailMessage: Too bad, try again?
+    againPlayCoins: 80
+    attemptsAllowed: 4
+    attemptTimer: 60
+    idOrganization: 1
+    timeTaken: 0
+    isComplete: 0
+    idSubliminalMeasurement1: 0
+    idBehavior: 0
+    coins: 0
+    rewardCoins: 100
+    attemptNumber: 0
+    noOfMoves: 0
+    correctMoves: 0
+    behaviorScore: 0
+  - level: 1
+    idLevel: 2
+    challengeName: Challenge 2
+    challengeIntroMessage: 'We found the 1st piece. You can now move to the 2nd challenge.
+      It''s similar to the 1st one but with more obstacles. Stay calm and help the
+      farmer reach the barn to get the gold coins and 2nd piece of the map. & The
+      rules remain the same. You can only move the tractors. Successful completion
+      in the 1st attempt give you 180 coins. The more attempts you take to complete,
+      the lesser gold coins you will get. Successful completion in the 4th attempt
+      will give you 0 gold coins. However, you will still get the 2nd piece of the
+      map.
+
+
+
+'
+    bottomCompleteMessage: You have discovered the 2 pieces of the map
+    bottomFailMessage: Too bad, try again?
+    againPlayCoins: 80
+    attemptsAllowed: 4
+    attemptTimer: 60
+    idOrganization: 1
+    timeTaken: 0
+    isComplete: 0
+    idSubliminalMeasurement1: 0
+    idBehavior: 0
+    coins: 0
+    rewardCoins: 0
+    attemptNumber: 0
+    noOfMoves: 0
+    correctMoves: 0
+    behaviorScore: 0
+  - level: 2
+    idLevel: 3
+    challengeName: Challenge 3
+    challengeIntroMessage: 'By clicking on the tiles, you need to move them to their
+      proper positions to form the complete picture. You have 60 seconds and 4 attempts
+      to complete this one. Successful completion in the 1st attempt give you 180
+      coins. The more attempts you take to complete, the lesser gold coins you will
+      get.
+
+      Successful completion in the 4th attempt will give you 0 gold coins.
+      However, you will still get the 3rd piece of the map.
+
+'
+    bottomCompleteMessage: You have discovered the above pieces of the map
+    bottomFailMessage: Too bad, try again?
+    againPlayCoins: 80
+    attemptsAllowed: 4
+    attemptTimer: 60
+    idOrganization: 1
+    timeTaken: 0
+    isComplete: 1
+    idSubliminalMeasurement1: 1
+    idBehavior: 0
+    coins: 0
+    rewardCoins: 0
+    attemptNumber: 1
+    noOfMoves: 1
+    correctMoves: 3
+    behaviorScore: 0.75
+  - level: 3
+    idLevel: 4
+    challengeName: Challenge 4
+    challengeIntroMessage: 'The rules remain the same. By clicking on the tiles,
+      you need to move them to their proper positions to form the complete picture.
+      You have 60 seconds and 4 attempts to complete this one. Successful completion
+      in the 1st attempt give you 180 coins. The more attempts you take to complete,
+      the lesser gold coins you will get.
+
+      Successful completion in the 4th
+      attempt will give you 0 gold coins. However, you will still get the 4th piece
+      of the map.
+
+'
+    bottomCompleteMessage: You have discovered the fourth piece of map
+    bottomFailMessage: Too bad, try again?
+    againPlayCoins: 80
+    attemptsAllowed: 4
+    attemptTimer: 60
+    idOrganization: 1
+    timeTaken: 0
+    isComplete: -1
+    idSubliminalMeasurement1: 2
+    idBehavior: 2
+    coins: 0
+    rewardCoins: 100
+    attemptNumber: 3
+    noOfMoves: 0
+    correctMoves: 0
+    behaviorScore: -1
+  Coins: 108
+  RewardCoins: 108
+  TotalCoins: 0
+  AuthToken: 
+  gameName: The Gold Mine Treasure Map
+  loadingCounter: 0
+  SubliminalMeasurement2Data:
+  - idSubliminalMeasurement2: 1
+    idGame: 1
+    idLevel: 2
+    idBehavior: 3
+    subliminalMeasurement2Name: 1 Option
+    behaviorScore: -1
+    idOrganization: 1
+    gameFeedbackMsg: Very Poor
+    idCmsUser: 0
+  - idSubliminalMeasurement2: 2
+    idGame: 1
+    idLevel: 2
+    idBehavior: 4
+    subliminalMeasurement2Name: 2 Option
+    behaviorScore: -1
+    idOrganization: 1
+    gameFeedbackMsg: Poor
+    idCmsUser: 0
+  - idSubliminalMeasurement2: 3
+    idGame: 1
+    idLevel: 2
+    idBehavior: 3
+    subliminalMeasurement2Name: 3 Option
+    behaviorScore: 1
+    idOrganization: 1
+    gameFeedbackMsg: Average
+    idCmsUser: 0
+  - idSubliminalMeasurement2: 4
+    idGame: 1
+    idLevel: 2
+    idBehavior: 4
+    subliminalMeasurement2Name: 4 Option
+    behaviorScore: 1
+    idOrganization: 1
+    gameFeedbackMsg: Good
+    idCmsUser: 0
+  - idSubliminalMeasurement2: 23
+    idGame: 1
+    idLevel: 2
+    idBehavior: 3
+    subliminalMeasurement2Name: '5 Option '
+    behaviorScore: 1
+    idOrganization: 1
+    gameFeedbackMsg: Very Good
+    idCmsUser: 0
+  TilesList: []

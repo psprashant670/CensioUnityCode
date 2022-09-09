@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0beb05e06bf4b348b52d986a55342fe, type: 3}
+  m_Name: Data
+  m_EditorClassIdentifier: 
+  IsCustomBuild: 0
+  isStagingDomain: 1
+  SelectedLevel: 0
+  Levels:
+  - SelectedLevel: 1
+    idLevel: 5
+    levelName: 
+    challengeIntroMessage: From the blocks sliding on the side. Stack the green colour
+      skyscraper blocks to build. Click to drop the block in the right place.  & 
+      Remember accuracy must be more than 75% and the time limit is 40 seconds. You
+      have 4 attempts to complete this level.
+    levelTimerequired: 0
+    levelStatus: 0
+    attemptsAllowed: 4
+    attemptTimer: 45
+    behaviorScore: 1
+    timeTaken: 45
+    isComplete: 1
+    idSubliminalMeasurement1: 3
+    idBehavior: 0
+    accuracy: 0
+    attemptNumber: 0
+    blocksPresented: 23
+    blocksClicked: 10
+    correctBlocks: 10
+    successfulBlocks: 10
+    rewardCoins: 100
+    isPreviouslyComplete: 0
+  - SelectedLevel: 2
+    idLevel: 6
+    levelName: 
+    challengeIntroMessage: 'To build a skyscraper you need to drop and stack the
+      blocks hanging from the crane. Click to drop the block and stack at the right
+      place precisely. &  Columns will support the build if 3 blocks are stacked
+      perfectly. Your accuracy needs to be 75%. You have 40 seconds and 4 attempts. '
+    levelTimerequired: 0
+    levelStatus: 0
+    attemptsAllowed: 4
+    attemptTimer: 45
+    behaviorScore: -1
+    timeTaken: 45
+    isComplete: 1
+    idSubliminalMeasurement1: 4
+    idBehavior: 0
+    accuracy: 0
+    attemptNumber: 0
+    blocksPresented: 2
+    blocksClicked: 1
+    correctBlocks: 1
+    successfulBlocks: 1
+    rewardCoins: 100
+    isPreviouslyComplete: 0
+  - SelectedLevel: 3
+    idLevel: 7
+    levelName: 
+    challengeIntroMessage: Get ready! There are two blocks are hanging from a crane;
+      click the correct colour block to stack. Colour identification is provided
+      in a circle near the attempts counter. & Accuracy must be more than 75% and
+      the time limit is 40 seconds.
+    levelTimerequired: 0
+    levelStatus: 0
+    attemptsAllowed: 4
+    attemptTimer: 45
+    behaviorScore: -1
+    timeTaken: 45
+    isComplete: 0
+    idSubliminalMeasurement1: 4
+    idBehavior: 0
+    accuracy: 49
+    attemptNumber: 0
+    blocksPresented: 26
+    blocksClicked: 44
+    correctBlocks: 24
+    successfulBlocks: 5
+    rewardCoins: 100
+    isPreviouslyComplete: 0
+  - SelectedLevel: 4
+    idLevel: 8
+    levelName: 
+    challengeIntroMessage: 'This challenge is a tough one. Two blocks are hanging.
+      You have to drop the block accurately from the top which will be a vertical
+      view. & Here too, Your accuracy must be more than 75%. You will get 40 seconds
+      time and 4 attempts. '
+    levelTimerequired: 0
+    levelStatus: 0
+    attemptsAllowed: 4
+    attemptTimer: 45
+    behaviorScore: 0
+    timeTaken: 45
+    isComplete: 0
+    idSubliminalMeasurement1: 0
+    idBehavior: 0
+    accuracy: 0
+    attemptNumber: 0
+    blocksPresented: 11
+    blocksClicked: 9
+    correctBlocks: 9
+    successfulBlocks: 8
+    rewardCoins: 0
+    isPreviouslyComplete: 0
+  AuthToken: 
+  gameName: SKYLINE
+  loadingCounter: -1
+  RewardCoins: 160
+  TotalCoins: 0
+  AccuracyLevel: 0
+  IntroMessages:
+  - Hello! Welcome to the city of Manhattan. Join me on this building modernization
+    project.
+  - You need to build 4 skyscrapers in a stipulated time. Work through various challenges
+    that come along the way!
+  - You get 4 attempts to complete each level. You score coins based on your accuracy
+    of the building them and not the number of blocks!
+  - Reward coins are awarded depending on the number of attempts you take to stack
+    the skyscraper blocks perfectly.
+  - "Completion on the first attempt will get you most coins. If you click on the
+    \u201CMove On\u201D button, you lose the remaining attempts for that level. However,
+    you can still play the other levels."
+  Game2BlockAccuracyLogs:
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 2
+    AccuracyLevel: 97
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 1
+    AccuracyLevel: 67
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 3
+    AccuracyLevel: 31
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 5
+    AccuracyLevel: 48
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 4
+    AccuracyLevel: 24
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 7
+    AccuracyLevel: 81
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 8
+    AccuracyLevel: 58
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 9
+    AccuracyLevel: 33
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 10
+    AccuracyLevel: 10
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 11
+    AccuracyLevel: 7
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 12
+    AccuracyLevel: 5
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 13
+    AccuracyLevel: 23
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 6
+    AccuracyLevel: 65
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 15
+    AccuracyLevel: 85
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 14
+    AccuracyLevel: 69
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 17
+    AccuracyLevel: 1
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 16
+    AccuracyLevel: 50
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 18
+    AccuracyLevel: 58
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 20
+    AccuracyLevel: 57
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 21
+    AccuracyLevel: 64
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 19
+    AccuracyLevel: 11
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 22
+    AccuracyLevel: 67
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 24
+    AccuracyLevel: 79
+    IsCorrect: 1
+  - IdUser: 0
+    IdLevel: 7
+    AttemptNo: 2
+    BlockNo: 25
+    AccuracyLevel: 84
+    IsCorrect: 1
